@@ -11,3 +11,7 @@ The Counter App is a lightweight web application that allows users to increment 
 Increment and decrement buttons to modify the counter value.
 Dynamic styling: The counter changes color based on its value (green for positive, red for negative, black for zero).
 Clean and responsive design.
+
+**License**
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
