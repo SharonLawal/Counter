@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    display: grid;
+    background-color: antiquewhite;
+    place-items: center;
+    min-height: 100%;
+}
+
+.container{
+    width: 600px;
+    height: 350px;
+    background-color: azure;
+    box-shadow: 10px 10px 15px grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+}
+
+.name{
+    margin-bottom: 0;
+    font-size: 3rem;
+}
+
+#counter{
+    font-weight: 10000;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+.counterBtn{
+    font-size: 1.5rem;
+    outline: none;
+    cursor: pointer;
+    padding: 0.7rem 1.5rem;
+    border: 0cap;
+    background-color: bisque;
+    margin: 0.2rem;
+    border-radius: 2cm;
+}
